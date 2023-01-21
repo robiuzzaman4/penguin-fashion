@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- OUTPUT CSS FILE LINK -->
+    <link rel="stylesheet" href="./public/dist/output.css">
+    <!-- GOOGLE FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="font-roboto text-custom-dark">
+
+    <!-- HEADER START -->
+    <header>
+        <!-- NAV START -->
+        <nav class="max-w-screen-lg mx-auto relative py-5 px-4 flex flex-col md:flex-row items-start md:items-center  justify-between gap-5">
+            <a href="#" class="flex items-center gap-2">
+                <img class="w-10" src="./public/icons/logo.svg" alt="" srcset="">
+                <h4 class="text-2xl font-bold text-custom-slate"><span class="text-[#A4BC46]">Penguin</span> Fashion</h4>
+            </a>
+            <div class="absolute top-[1.35rem] right-2 cursor-pointer md:hidden" id="menuBtn">
+                <img class="w-6" src="./public/icons/menu-bar.svg" alt="" srcset="">
+            </div>
+            <div class="hidden md:block" id="navList">
+                <ul class="flex flex-col md:flex-row gap-5">
+                    <li><a href="index.html" class="font-medium hover:text-custom-lime transition">Home</a></li>
+                    <li><a href="#products" class="font-medium hover:text-custom-lime transition">Products</a></li>
+                    <li><a href="#features" class="font-medium hover:text-custom-lime transition">Features</a></li>
+                    <li><a href="#" class="font-medium hover:text-custom-lime transition">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- NAV END -->
+
+        <!-- HERO SECTION START -->
+        <section class="max-w-screen-lg mx-auto py-10 px-4 grid grid-cols-1 md:grid-cols-2 gap-12">
+            <figure class="order-2 md:order-1 flex flex-col items-start justify-center gap-5">
+                <h1 class="font-bebas font-bold text-6xl md:text-7xl text-custom-slate"><span class="text-custom-yellow">Be the Penguins <br> </span> of Winter</h1>
+                <p class="font-normal">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="btn">
+                    <img class="w-5" src="./public/icons/shoping-cart.svg" alt="" srcset="">
+                    <span>Buy now</span>
+                </button>
+            </figure>
+            <figure class="flex items-center justify-center order-1 md:order-2">
+                <img class="w-80 md:w-96" src="./public/images/hero-img.svg" alt="" srcset="">
+            </figure>
+        </section>
+        <!-- HERO SECTION END -->
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main class="max-w-screen-lg mx-auto py-10 px-4">
+        <!-- WOMAN JACKET SECTION START -->
+        <section class="py-10" id="products">
+            <h2 class="text-4xl text-custom-slate font-bebas uppercase">Woman Jacket</h2>
+
+            <!-- JACKET CARDS START -->
+            <figure class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-10">
+                <!-- CARD ONE -->
+                <div class="flex flex-col items-start justify-between gap-5">
+                    <div class="bg-custom-gray grid place-items-center rounded-3xl">
+                        <img class="w-2/3 p-5" src="./public/images/jacket-1.png" alt="" srcset="">
+                    </div>
+                    <h4 class="text-2xl font-bold text-custom-slate">Yellow Coat Jacket </h4>
+                    <p class="text-custom-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between gap-2 w-full">
+                        <h3 class="text-3xl text-custom-yellow font-bold">$234</h3>
+                        <button class="btn">
+                            <img class="w-5" src="./icons/shoping-cart.svg" alt="" srcset="">
+                            <span>Buy now</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- CARD TWO -->
+                <div class="flex flex-col items-start justify-between gap-5">
+                    <div class="bg-custom-gray grid place-items-center rounded-3xl">
+                        <img class="w-2/3 p-5" src="./public/images/jacket-2.png" alt="" srcset="">
+                    </div>
+                    <h4 class="text-2xl font-bold text-custom-slate">Ladies Jacket </h4>
+                    <p class="text-custom-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between gap-2 w-full">
+                        <h3 class="text-3xl text-custom-yellow font-bold">$284</h3>
+                        <button class="btn">
+                            <img class="w-5" src="./icons/shoping-cart.svg" alt="" srcset="">
+                            <span>Buy now</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- CARD THREE -->
+                <div class="flex flex-col items-start justify-between gap-5">
+                    <div class="bg-custom-gray grid place-items-center rounded-3xl">
+                        <img class="w-2/3 p-5" src="./public/images/jacket-3.png" alt="" srcset="">
+                    </div>
+                    <h4 class="text-2xl font-bold text-custom-slate">Woman Leather Jacket  </h4>
+                    <p class="text-custom-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between gap-2 w-full">
+                        <h3 class="text-3xl text-custom-yellow font-bold">$284</h3>
+                        <button class="btn">
+                            <img class="w-5" src="./icons/shoping-cart.svg" alt="" srcset="">
+                            <span>Buy now</span>
+                        </button>
+                    </div>
+                </div>
+            </figure>
+            <!-- JACKET CARDS END -->
+        </section>
+        <!-- WOMAN JACKET SECTION END -->
+
+        <!-- MAN JACKET SECTION START -->
+        <section class="py-10">
+            <h2 class="text-4xl text-custom-slate font-bebas uppercase">man Jacket</h2>
+
+            <!-- JACKET CARDS START -->
+            <figure class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-10">
+                <!-- CARD ONE -->
+                <div class="flex flex-col items-start justify-between gap-5">
+                    <div class="bg-custom-gray grid place-items-center rounded-3xl">
+                        <img class="w-2/3 p-5" src="./public/images/jacket-4.png" alt="" srcset="">
+                    </div>
+                    <h4 class="text-2xl font-bold text-custom-slate">Snowboard Jacket Mens </h4>
+                    <p class="text-custom-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between gap-2 w-full">
+                        <h3 class="text-3xl text-custom-yellow font-bold">$290</h3>
+                        <button class="btn">
+                            <img class="w-5" src="./icons/shoping-cart.svg" alt="" srcset="">
+                            <span>Buy now</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- CARD TWO -->
+                <div class="flex flex-col items-start justify-between gap-5">
+                    <div class="bg-custom-gray grid place-items-center rounded-3xl">
+                        <img class="w-2/3 p-5" src="./public/images/jacket-5.png" alt="" srcset="">
+                    </div>
+                    <h4 class="text-2xl font-bold text-custom-slate">Man Leather Jackets </h4>
+                    <p class="text-custom-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between gap-2 w-full">
+                        <h3 class="text-3xl text-custom-yellow font-bold">$189</h3>
+                        <button class="btn">
+                            <img class="w-5" src="./icons/shoping-cart.svg" alt="" srcset="">
+                            <span>Buy now</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- CARD THREE -->
+                <div class="flex flex-col items-start justify-between gap-5">
+                    <div class="bg-custom-gray grid place-items-center rounded-3xl">
+                        <img class="w-2/3 p-5" src="./public/images/jacket-6.png" alt="" srcset="">
+                    </div>
+                    <h4 class="text-2xl font-bold text-custom-slate">Man Casual Jackets  </h4>
+                    <p class="text-custom-dark">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="flex items-center justify-between gap-2 w-full">
+                        <h3 class="text-3xl text-custom-yellow font-bold">$309</h3>
+                        <button class="btn">
+                            <img class="w-5" src="./icons/shoping-cart.svg" alt="" srcset="">
+                            <span>Buy now</span>
+                        </button>
+                    </div>
+                </div>
+            </figure>
+            <!-- JACKET CARDS END -->
+        </section>
+        <!-- MAN JACKET SECTION END -->
+
+        <!-- FEATURES SECTION START -->
+        <section class="py-10" id="features">
+            <h2 class="text-4xl text-custom-slate font-bebas uppercase">Features</h2>
+
+            <div class="py-10 grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- FEATUERS ITEMS START -->
+                <figure class="flex flex-col items-start justify-between gap-12 order-2 md:order-1">
+                    <!-- FEATURES ONE START -->
+                    <div class="flex items-start justify-between gap-5">
+                        <div class="w-16 bg-custom-gray rounded-xl">
+                            <img class="w-full p-2" src="./public/icons/home.svg" alt="">
+                        </div>
+                        <div class="flex flex-col items-start gap-3">
+                            <h4 class="text-2xl font-bold text-custom-slate">Find the Perfect Fit</h4>
+                            <p>Everybody is different, which is why we offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <!-- FEATURES ONE END -->
+
+                    <!-- FEATURES TWO START -->
+                    <div class="flex items-start justify-between gap-5">
+                        <div class="w-16 bg-custom-gray rounded-xl">
+                            <img class="w-full p-2" src="./public/icons/swatch.svg" alt="">
+                        </div>
+                        <div class="flex flex-col items-start gap-3">
+                            <h4 class="text-2xl font-bold text-custom-slate">Free Exchanges</h4>
+                            <p>One of the many reasons you can shop with peace of mind.</p>
+                        </div>
+                    </div>
+                    <!-- FEATURES TWO END -->
+
+                    <!-- FEATURES THREE START -->
+                    <div class="flex items-start justify-between gap-5">
+                        <div class="w-16 bg-custom-gray rounded-xl">
+                            <img class="w-full p-2" src="./public/icons/phone.svg" alt="">
+                        </div>
+                        <div class="flex flex-col items-start gap-3">
+                            <h4 class="text-2xl font-bold text-custom-slate">Contact Our Seller</h4>
+                            <p>They are here to help you. That's quite literally what we pay them for.</p>
+                        </div>
+                    </div>
+                    <!-- FEATURES THREE END -->
+                </figure>
+                <!-- FEATURES ITEMS END -->
+
+                <!-- FEATURES IMG START -->
+                <figure class="grid place-items-center order-1 md:order-2">
+                    <img class="w-full p-5" src="./public/images/home-deliveries.svg" alt="">
+                </figure>
+                <!-- FEATURES IMG END -->
+            </div>
+        </section>
+        <!-- FEATURES SECTION END -->
+
+        <!-- CONTACT SECTION START -->
+        <section class="py-10" id="contacts">
+            <h2 class="text-4xl text-custom-slate font-bebas uppercase">Let's Contact with us</h2>
+
+            <div class="py-10 grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- CONTACT IMG START -->
+                <figure class="grid place-items-center">
+                    <img class="w-full p-5" src="./public/images/contact.svg" alt="">
+                </figure>
+                <!-- CONTACT IMG END -->
+
+                <!-- CONTACT FORM START -->
+                <form class="flex flex-col items-center justify-center gap-5 ">
+                    <!-- NAME LABEL -->
+                    <label for="name" class="flex flex-col items-start gap-1 w-full">
+                        <span class="after:content-['*'] after:ml-0.5 after:text-red-500">Name</span>
+                        <input type="text" id="name" class="w-full py-3 px-10 border border-custom-lime rounded-lg focus:outline-none focus:ring-2 ring-lime-200" placeholder="Jhon doe">
+                    </label>
+                    <!-- EMAIL LABEL -->
+                    <label for="email" class="flex flex-col items-start gap-1 w-full">
+                        <span class="after:content-['*'] after:ml-0.5 after:text-red-500">Email</span>
+                        <input type="email" id="email" class="w-full py-3 px-10 border border-custom-lime rounded-lg focus:outline-none focus:ring-2 ring-lime-200" placeholder="example@gmail.com">
+                    </label>
+                    <!-- MESSAGE LABEL -->
+                    <label for="message" class="flex flex-col items-start gap-1 w-full">
+                        <span class="after:content-['*'] after:ml-0.5 after:text-red-500">Message</span>
+                        <textarea type="email" id="message" class="w-full py-3 px-10 border border-custom-lime rounded-lg focus:outline-none focus:ring-2 ring-lime-200 h-32" placeholder="Hello Penguin Fashion!"></textarea>
+                    </label>
+                    <!-- SUBMIT BUTTON -->
+                    <button class="btn mr-auto" type="submit">
+                        Submit
+                    </button>
+                    
+                </form>
+                <!-- CONTACT FORM END -->
+            </div>
+        </section>
+        <!-- CONTACT SECTION END -->
+
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="bg-custom-gray p-10 px-4">
+        <figure class="max-w-screen-lg mx-auto">
+
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-5">
+                <h5 class="text-xl font-bold">Useful Links:</h5>
+                <ul class="flex flex-col md:flex-row gap-5">
+                    <li><a href="index.html" class="font-medium hover:text-custom-lime transition">Home</a></li>
+                    <li><a href="#products" class="font-medium hover:text-custom-lime transition">Products</a></li>
+                    <li><a href="#features" class="font-medium hover:text-custom-lime transition">Features</a></li>
+                    <li><a href="#" class="font-medium hover:text-custom-lime transition">Contact</a></li>
+                </ul>
+            </div>
+            <p class="text-sm text-center pt-10 pb-5">© 2023 Penguin Fashion. All rights reserved.</p>
+        </figure>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- JS FILE LINK -->
+    <script src="./public/javascript/script.js"></script>
+
+</body>
+</html>
