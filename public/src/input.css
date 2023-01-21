@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
 @layer components {
     .btn {
         @apply bg-gradient-to-b from-custom-green to-custom-lime text-white font-medium py-3 px-6 rounded-md flex items-center justify-center gap-2 uppercase
